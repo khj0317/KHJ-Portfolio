@@ -6,7 +6,13 @@ import SectionTitle from "./SectionTitle";
 import ImageModal from "./ImageModal";
 import ReadmeModal from "./ReadmeModal";
 
-const categories = ["전체", ...new Set(projects.map((p) => p.category))];
+// 탭은 이 순서로 보여 주고, 여기에 없는 분류는 뒤에 붙입니다.
+const categoryOrder = ["풀스택", "프론트엔드"];
+const rank = (category: string) => {
+  const i = categoryOrder.indexOf(category);
+  return i === -1 ? categoryOrder.length : i;
+};
+const categories = ["전체", ...[...new Set(projects.map((p) => p.category))].sort((a, b) => rank(a) - rank(b))];
 
 export default function Projects() {
   const [category, setCategory] = useState("전체");

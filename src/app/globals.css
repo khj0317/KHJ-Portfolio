@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --font-sans: var(--font-noto-sans-kr);
+  --font-display: var(--font-do-hyeon);
+  --color-accent: #6f8ce8;
+  --color-band: #7c98ec;
+  --color-navy: #374262;
+  --color-ink: #1f2633;
+  --color-paper: #f4f6fa;
+  --color-hero: #4a5794;
+  --color-career: #e1e8fb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #1f2633;
+  word-break: keep-all;
+}
+
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* 첫 화면 일러스트 애니메이션 */
+.float {
+  animation: float 3.2s ease-in-out infinite;
+}
+.float-slow {
+  animation: float 4.5s ease-in-out infinite;
+}
+.twinkle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+.blink {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blink 4s infinite;
+}
+.wave {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: wave 1.6s ease-in-out infinite;
+}
+.steam {
+  animation: steam 2.4s ease-in-out infinite;
+}
+.cursor-blink {
+  animation: cursor-blink 1s steps(1) infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes twinkle {
+  50% {
+    opacity: 0.3;
+    transform: scale(0.6);
+  }
+}
+@keyframes blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  96% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+}
+@keyframes steam {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float,
+  .float-slow,
+  .twinkle,
+  .blink,
+  .wave,
+  .steam,
+  .cursor-blink {
+    animation: none;
+  }
+}

@@ -7,7 +7,7 @@
 | 섹션 | 내용 |
 |---|---|
 | 첫 화면 | 소개 문구와 직접 그린 고양이 개발자 일러스트 |
-| About me | 자기소개와 연락처 |
+| About me | 연락처와 학력 |
 | Skills | 분류별 기술 스택 |
 | Archiving | GitHub 링크 |
 | Projects | FitMate, StoreFit, MBTI 검사. README는 GitHub에서 불러와 팝업으로 보여 주고, 스크린샷은 슬라이드로 봅니다 |
@@ -28,7 +28,7 @@
 | 바꾸고 싶은 것 | 위치 |
 |---|---|
 | 이름, 소개 문구, 로고 | `profile` |
-| About me | `aboutIntro`, `about` |
+| About me | `about` |
 | 기술 스택 | `skills` |
 | 프로젝트 | `projects` (스크린샷은 `public/projects/`) |
 | 경력 | `careers` |

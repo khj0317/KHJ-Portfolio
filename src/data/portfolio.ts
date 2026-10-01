@@ -9,12 +9,6 @@ export const profile = {
 
 export type AboutIcon = "user" | "calendar" | "pin" | "phone" | "mail" | "school";
 
-// About me 위쪽에 보이는 짧은 자기소개입니다.
-export const aboutIntro = [
-  "공공기관·기업 SI 프로젝트에서 실제 업무 시스템을 개발하며, 현업 담당자와 요구사항을 맞춰 가는 일에 익숙해졌습니다.",
-  "개인 프로젝트에서는 기획부터 배포까지 직접 맡아 실시간 통신, 결제, 동시성 문제를 테스트로 검증하며 해결합니다. 경영학 공부로 업무를 이해하는 시야도 넓혀 가고 있습니다.",
-];
-
 export const about: { icon: AboutIcon; label: string; value: string; href?: string }[] = [
   { icon: "user", label: "이름", value: "김혁진" },
   { icon: "calendar", label: "생년월일", value: "00.03.17" },
@@ -182,7 +176,7 @@ export const projects: Project[] = [
       "Web Share API로 모바일 공유 시트 연동, 미지원 환경은 클립보드 복사로 대체",
       "유형별 동적 OG 이미지 생성으로 메신저 링크 미리보기 카드 제공",
     ],
-    demo: "https://mbti-test-smoky.vercel.app",
+    demo: "https://mbti-khj.vercel.app",
     github: "https://github.com/khj0317/mbti-test",
     stack: ["Next.js", "React", "TypeScript", "Vitest", "Vercel"],
   },

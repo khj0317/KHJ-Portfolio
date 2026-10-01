@@ -42,7 +42,8 @@ export default function ReadmeModal({ project, onClose }: { project: Project; on
   useEffect(() => {
     if (cache.has(urls.readme)) return;
     let cancelled = false;
-    fetch(urls.readme)
+    // 브라우저에 저장된 사본이 있어도 바뀌었는지 GitHub에 확인하고 가져옵니다.
+    fetch(urls.readme, { cache: "no-cache" })
       .then((res) => {
         if (!res.ok) throw new Error(String(res.status));
         return res.text();

@@ -1,4 +1,4 @@
-import { about, aboutIntro, type AboutIcon } from "@/data/portfolio";
+import { about, type AboutIcon } from "@/data/portfolio";
 import SectionTitle from "./SectionTitle";
 
 const iconPaths: Record<AboutIcon, string> = {
@@ -15,11 +15,6 @@ export default function About() {
   return (
     <section id="about" className="bg-white px-4 py-24">
       <SectionTitle title="ABOUT ME" caption="저를 소개합니다" />
-      <div className="mx-auto mb-14 max-w-3xl space-y-3 text-center leading-relaxed text-ink/75 sm:text-lg">
-        {aboutIntro.map((line) => (
-          <p key={line}>{line}</p>
-        ))}
-      </div>
       <dl className="mx-auto grid w-fit gap-x-16 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
         {about.map((item) => (
           <div key={item.label} className="flex items-center gap-4">

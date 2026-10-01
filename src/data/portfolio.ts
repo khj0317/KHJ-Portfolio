@@ -181,6 +181,31 @@ export const projects: Project[] = [
     github: "https://github.com/khj0317/mbti-test",
     stack: ["Next.js", "React", "TypeScript", "Vitest", "Vercel"],
   },
+  {
+    title: "KHJ Portfolio",
+    category: "프론트엔드",
+    period: "2026.10",
+    team: "1인 개인 프로젝트",
+    images: [
+      { src: "/projects/portfolio/01-hero.png", alt: "첫 화면" },
+      { src: "/projects/portfolio/02-about.png", alt: "About me" },
+      { src: "/projects/portfolio/04-projects.png", alt: "Projects" },
+      { src: "/projects/portfolio/05-readme-popup.png", alt: "README 팝업" },
+      { src: "/projects/portfolio/06-career.png", alt: "Career" },
+      { src: "/projects/portfolio/07-mobile.png", alt: "모바일 화면" },
+    ],
+    summary: "프로젝트 README를 사이트 안에서 바로 읽을 수 있는 한 페이지 포트폴리오 (지금 보고 있는 이 사이트)",
+    bullets: [
+      "GitHub README를 불러와 팝업으로 표시, 상대 경로 이미지 변환과 rehype-sanitize로 안전하게 렌더링",
+      "GitHub 원본 파일의 5분 캐시 때문에 예전 README가 보이던 문제를 찾아 열 때마다 변경 여부를 확인하도록 수정",
+      "폭 2,887px ERD 다이어그램을 mermaid로 필요할 때만 불러와 그리고, 화면 맞춤과 크게 보기 전환 제공",
+      "next/og로 필요한 한글 글자만 받아 링크 미리보기 이미지 생성, 배포 주소를 고정해 메신저 미리보기 문제 해결",
+      "직접 그린 SVG 고양이 일러스트와 움직임 (움직임 줄이기 설정을 켜면 멈춤)",
+    ],
+    demo: "https://hyeokjin-portfolio.vercel.app",
+    github: "https://github.com/khj0317/KHJ-Portfolio",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "react-markdown", "mermaid", "Vercel"],
+  },
 ];
 
 export type Career = {

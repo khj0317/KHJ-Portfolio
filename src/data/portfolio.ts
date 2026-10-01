@@ -119,10 +119,11 @@ export const projects: Project[] = [
     images: [
       { src: "/projects/portfolio/01-hero.png", alt: "첫 화면" },
       { src: "/projects/portfolio/02-about.png", alt: "About me" },
+      { src: "/projects/portfolio/07-archiving.png", alt: "Archiving" },
       { src: "/projects/portfolio/04-projects.png", alt: "Projects" },
       { src: "/projects/portfolio/05-readme-popup.png", alt: "README 팝업" },
       { src: "/projects/portfolio/06-career.png", alt: "Career" },
-      { src: "/projects/portfolio/07-mobile.png", alt: "모바일 화면" },
+      { src: "/projects/portfolio/08-mobile-hero.png", alt: "모바일 화면" },
     ],
     summary: "소개·기술·프로젝트·경력을 한 페이지에 담은 포트폴리오 사이트 (지금 보고 있는 이 사이트)",
     bullets: [

@@ -31,13 +31,17 @@
 |---|---|
 | ![Projects](docs/screenshots/04-projects.png) | ![README 팝업](docs/screenshots/05-readme-popup.png) |
 
-| Career | 모바일 |
+| Archiving | Career |
 |---|---|
-| ![Career](docs/screenshots/06-career.png) | ![모바일](docs/screenshots/07-mobile.png) |
+| ![Archiving](docs/screenshots/07-archiving.png) | ![Career](docs/screenshots/06-career.png) |
 
-| 링크 미리보기 이미지 |
-|---|
-| ![링크 미리보기](docs/screenshots/08-og-image.png) |
+| 모바일 첫 화면 | 모바일 프로젝트 | 모바일 README 팝업 |
+|---|---|---|
+| ![모바일 첫 화면](docs/screenshots/08-mobile-hero.png) | ![모바일 프로젝트](docs/screenshots/08-mobile-projects.png) | ![모바일 README 팝업](docs/screenshots/08-mobile-readme.png) |
+
+**링크 미리보기 이미지**
+
+![링크 미리보기](docs/screenshots/09-og-image.png)
 
 ## 구성
 

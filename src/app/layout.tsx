@@ -14,10 +14,13 @@ const doHyeon = Do_Hyeon({
   subsets: ["latin"],
 });
 
-// Vercel에 배포하면 실제 사이트 주소를, 로컬에서는 개발 서버 주소를 씁니다.
-const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : "http://localhost:3100";
+// 실제 배포에서는 정해 둔 사이트 주소를, 미리보기 배포와 로컬에서는 그 환경의 주소를 씁니다.
+const siteUrl =
+  process.env.VERCEL_ENV === "production"
+    ? profile.siteUrl
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3100";
 
 const title = `${profile.name} | 개발자 포트폴리오`;
 const description = `${profile.intro.join(" ")} 직접 만든 서비스와 실무 경력을 소개합니다.`;
@@ -29,6 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
+    url: siteUrl,
     type: "website",
     locale: "ko_KR",
     siteName: profile.logo,

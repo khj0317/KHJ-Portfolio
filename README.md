@@ -2,6 +2,8 @@
 
 풀스택 개발자 김혁진의 포트폴리오 사이트입니다. 한 페이지에서 소개, 기술, 프로젝트, 경력을 보여 줍니다.
 
+**🔗 https://hyeokjin-portfolio.vercel.app**
+
 ## 구성
 
 | 섹션 | 내용 |
@@ -51,4 +53,4 @@ npm run build
 
 ## 배포
 
-GitHub 저장소를 [Vercel](https://vercel.com)에 연결하면 `main` 브랜치에 push할 때마다 자동으로 배포됩니다. 별도 환경 변수는 필요 없습니다.
+GitHub 저장소를 [Vercel](https://vercel.com)에 연결해 두어서 `main` 브랜치에 push할 때마다 자동으로 배포됩니다. 별도 환경 변수는 필요 없고, 사이트 주소는 `src/data/portfolio.ts`의 `profile.siteUrl`에서 바꿉니다.

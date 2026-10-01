@@ -3,6 +3,7 @@
 export const profile = {
   name: "김혁진",
   logo: "KHJ Portfolio", // 상단 메뉴 왼쪽 로고
+  siteUrl: "https://hyeokjin-portfolio.vercel.app", // 배포 주소 (링크 미리보기에 쓰임)
   role: "FULLSTACK DEVELOPER",
   intro: ["문제의 원인을 끝까지 찾아 해결하는", "풀스택 개발자 김혁진입니다."],
 };

@@ -25,22 +25,22 @@
 
 <table>
   <tr><th>About me</th><th>Skills</th></tr>
-  <tr><td><img src="docs/screenshots/02-about.png" width="400" alt="About me"></td><td><img src="docs/screenshots/03-skills.png" width="400" alt="Skills"></td></tr>
+  <tr><td><img src="docs/screenshots/02-about.png" width="380" alt="About me"></td><td><img src="docs/screenshots/03-skills.png" width="380" alt="Skills"></td></tr>
 </table>
 
 <table>
   <tr><th>Projects</th><th>README 팝업</th></tr>
-  <tr><td><img src="docs/screenshots/04-projects.png" width="400" alt="Projects"></td><td><img src="docs/screenshots/05-readme-popup.png" width="400" alt="README 팝업"></td></tr>
+  <tr><td><img src="docs/screenshots/04-projects.png" width="380" alt="Projects"></td><td><img src="docs/screenshots/05-readme-popup.png" width="380" alt="README 팝업"></td></tr>
 </table>
 
 <table>
   <tr><th>Archiving</th><th>Career</th></tr>
-  <tr><td><img src="docs/screenshots/07-archiving.png" width="400" alt="Archiving"></td><td><img src="docs/screenshots/06-career.png" width="400" alt="Career"></td></tr>
+  <tr><td><img src="docs/screenshots/07-archiving.png" width="380" alt="Archiving"></td><td><img src="docs/screenshots/06-career.png" width="380" alt="Career"></td></tr>
 </table>
 
 <table>
   <tr><th>모바일 첫 화면</th><th>모바일 프로젝트</th><th>모바일 README 팝업</th></tr>
-  <tr><td><img src="docs/screenshots/08-mobile-hero.png" width="250" alt="모바일 첫 화면"></td><td><img src="docs/screenshots/08-mobile-projects.png" width="250" alt="모바일 프로젝트"></td><td><img src="docs/screenshots/08-mobile-readme.png" width="250" alt="모바일 README 팝업"></td></tr>
+  <tr><td><img src="docs/screenshots/08-mobile-hero.png" width="240" alt="모바일 첫 화면"></td><td><img src="docs/screenshots/08-mobile-projects.png" width="240" alt="모바일 프로젝트"></td><td><img src="docs/screenshots/08-mobile-readme.png" width="240" alt="모바일 README 팝업"></td></tr>
 </table>
 
 **링크 미리보기 이미지**

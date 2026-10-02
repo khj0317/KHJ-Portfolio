@@ -165,7 +165,7 @@ export const projects: Project[] = [
   {
     title: "StoreFit",
     category: "풀스택",
-    period: "2026.09 ~ 2026.10",
+    period: "2026.09",
     team: "1인 개인 프로젝트",
     images: [
       { src: "/projects/storefit/01-home.jpg", alt: "홈" },

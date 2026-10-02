@@ -197,7 +197,8 @@ export const projects: Project[] = [
       { src: "/projects/mbti/01-home.png", alt: "홈 화면" },
       { src: "/projects/mbti/02-quiz.png", alt: "질문 화면" },
       { src: "/projects/mbti/03-result.png", alt: "결과 화면" },
-      { src: "/projects/mbti/04-mobile.png", alt: "모바일 화면" },
+      { src: "/projects/mbti/05-mobile-quiz.png", alt: "모바일 질문 화면" },
+      { src: "/projects/mbti/06-mobile-result.png", alt: "모바일 결과 화면" },
     ],
     summary: "40문항 리커트 척도로 16유형을 진단하고, 서버·DB 없이 링크 하나로 결과를 공유하는 웹 서비스",
     bullets: [

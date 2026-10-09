@@ -228,6 +228,7 @@ export const careers: Career[] = [
   {
     company: "대보정보통신(주)",
     start: "2023.10",
+    end: "2026.10",
     description: "공공기관·기업 시스템 구축 프로젝트 개발과 사내 시스템 개발·운영",
     roles: ["Fullstack 개발", "보안 취약점 점검", "인프라·사업관리"],
     works: [

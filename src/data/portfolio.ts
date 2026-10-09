@@ -72,7 +72,6 @@ export const skills: { category: string; items: { name: string; color: string }[
       { name: "Testcontainers", color: "bg-[#291a3f] text-white" },
       { name: "Playwright", color: "bg-[#2ead33] text-white" },
       { name: "Vitest", color: "bg-[#729b1b] text-white" },
-      { name: "k6", color: "bg-[#7d64ff] text-white" },
     ],
   },
   {

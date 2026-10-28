@@ -38,18 +38,14 @@ export const skills: { category: string; items: { name: string; color: string }[
   {
     category: "Backend",
     items: [
-      { name: "Spring Boot", color: "bg-[#6db33f] text-white" },
-      { name: "Spring Security", color: "bg-[#6db33f] text-white" },
-      { name: "Spring Data JPA", color: "bg-[#6db33f] text-white" },
-      { name: "WebSocket (STOMP)", color: "bg-[#333] text-white" },
-      { name: "Flyway", color: "bg-[#cc0200] text-white" },
-      { name: "Gradle", color: "bg-[#02303a] text-white" },
+      { name: "Spring (Boot · Security · JPA)", color: "bg-[#6db33f] text-white" },
+      { name: "Spring WebSocket (STOMP)", color: "bg-[#333] text-white" },
     ],
   },
   {
     category: "Database",
     items: [
-      { name: "PostgreSQL + PostGIS", color: "bg-[#336791] text-white" },
+      { name: "PostgreSQL", color: "bg-[#336791] text-white" },
       { name: "Oracle", color: "bg-[#c74634] text-white" },
       { name: "MySQL", color: "bg-[#00758f] text-white" },
       { name: "Redis", color: "bg-[#dc382d] text-white" },
@@ -60,18 +56,15 @@ export const skills: { category: string; items: { name: string; color: string }[
     items: [
       { name: "React", color: "bg-[#20232a] text-[#61dafb]" },
       { name: "Next.js", color: "bg-black text-white" },
-      { name: "Vite", color: "bg-[#646cff] text-white" },
-      { name: "TanStack Query", color: "bg-[#ff4154] text-white" },
       { name: "Tailwind CSS", color: "bg-[#06b6d4] text-white" },
     ],
   },
   {
-    category: "Test",
+    category: "Security",
     items: [
-      { name: "JUnit 5", color: "bg-[#25a162] text-white" },
-      { name: "Testcontainers", color: "bg-[#291a3f] text-white" },
-      { name: "Playwright", color: "bg-[#2ead33] text-white" },
-      { name: "Vitest", color: "bg-[#729b1b] text-white" },
+      { name: "Sparrow", color: "bg-[#e4002b] text-white" },
+      { name: "NAC", color: "bg-[#1f3a5f] text-white" },
+      { name: "HIWARE", color: "bg-[#0057b8] text-white" },
     ],
   },
   {
@@ -79,7 +72,6 @@ export const skills: { category: string; items: { name: string; color: string }[
     items: [
       { name: "Docker", color: "bg-[#2496ed] text-white" },
       { name: "GitHub Actions", color: "bg-[#2088ff] text-white" },
-      { name: "Nginx", color: "bg-[#009639] text-white" },
       { name: "Vercel", color: "bg-black text-white" },
       { name: "Render", color: "bg-[#46e3b7] text-black" },
       { name: "Supabase", color: "bg-[#3ecf8e] text-black" },

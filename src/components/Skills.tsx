@@ -7,7 +7,7 @@ const icons: Record<string, string> = {
   Backend: "M4 4h16v6H4zM4 14h16v6H4zM8 7h.01M8 17h.01",
   Database: "M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3",
   Frontend: "M3 4h18v12H3zM8 20h8M12 16v4M7 8h6M7 12h10",
-  Test: "M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3M7.5 14h9",
+  Security: "M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6zM9 12l2 2 4-4",
   DevOps: "M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19.5 10 4 4 0 0 1 18 18zM12 12v6M9 15l3-3 3 3",
 };
 const defaultIcon = "M12 2l9 5v10l-9 5-9-5V7z";
